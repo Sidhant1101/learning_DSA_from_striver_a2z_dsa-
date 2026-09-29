@@ -13,7 +13,7 @@ def slection_short(array):
         
         mini = i
         for j in range(i,len(array)):
-            if array[i]>array[j]:
+            if array[mini]>array[j]:
                 mini = j
         array[mini],array[i] = array[i],array[mini]
                 
